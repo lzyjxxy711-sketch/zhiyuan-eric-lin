@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zhiyuan (Eric) Lin — Juris Doctor Candidate &amp; Future Trainee Solicitor</title>
+<meta name="description" content="Zhiyuan (Eric) Lin — Future Trainee Solicitor at Withers, Juris Doctor candidate at CUHK, and qualified PRC lawyer. Building a career at the intersection of Chinese and international law: capital markets, cross-border transactions, and dispute resolution." />
+<meta name="author" content="Zhiyuan (Eric) Lin" />
+<meta name="theme-color" content="#16202B" />
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Zhiyuan (Eric) Lin" />
+<meta property="og:description" content="Future Trainee Solicitor at Withers · Juris Doctor candidate, CUHK · Qualified PRC Lawyer." />
+<meta property="og:image" content="assets/portrait-formal.jpg" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2316202B'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='34' fill='%23C9A86A' text-anchor='middle'%3EZL%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   Zhiyuan (Eric) Lin — Personal Site
+   Palette: ivory paper · ink navy · muted brass accent
+   ============================================================ */
+:root{
+  --paper:#F6F2E8;
+  --paper-2:#FBF9F2;
+  --paper-3:#EFE9DB;
+  --ink:#17212C;
+  --ink-soft:#41505E;
+  --ink-faint:#6A7682;
+  --navy:#1E2D44;
+  --navy-2:#2B3E5B;
+  --gold:#9C7C46;
+  --gold-bright:#C9A86A;
+  --line:rgba(23,33,44,0.10);
+  --line-2:rgba(23,33,44,0.16);
+  --shadow:0 22px 60px -32px rgba(23,33,44,0.45);
+  --maxw:1140px;
+  --serif-d:'Cormorant Garamond','Noto Serif SC',Georgia,serif;
+  --serif-b:'Spectral','Noto Serif SC',Georgia,serif;
+  --sans:'Inter','Noto Sans SC',system-ui,-apple-system,sans-serif;
+  --ease:cubic-bezier(.22,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif-b);
+  font-weight:400;
+  line-height:1.72;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+body::before{ /* faint paper grain */
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  mix-blend-mode:multiply;
+}
+::selection{background:var(--navy);color:var(--paper-2)}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+
+/* Language visibility */
+.lang-zh{display:none}
+html[data-lang="zh"] .lang-en{display:none}
+html[data-lang="zh"] .lang-zh{display:inline}
+html[data-lang="zh"] body{font-family:var(--serif-b)}
+
+/* Layout helpers */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 clamp(1.4rem,5vw,3.5rem)}
+section{position:relative;z-index:2}
+.eyebrow{
+  font-family:var(--sans);font-weight:500;font-size:.72rem;letter-spacing:.26em;
+  text-transform:uppercase;color:var(--gold);display:inline-flex;align-items:center;gap:.7rem;
+}
+.eyebrow::before{content:"";width:30px;height:1px;background:var(--gold);opacity:.7}
+.section-head{margin-bottom:clamp(2.4rem,5vw,3.6rem);max-width:760px}
+.section-head h2{
+  font-family:var(--serif-d);font-weight:600;line-height:1.02;
+  font-size:clamp(2.1rem,4.6vw,3.35rem);letter-spacing:-.01em;color:var(--ink);
+  margin-top:1.1rem;
+}
+.section-head p{margin-top:1.1rem;color:var(--ink-soft);font-size:1.07rem;max-width:60ch}
+.pad{padding:clamp(4.6rem,11vh,8.4rem) 0}
+.hairline{height:1px;background:var(--line);border:0}
+
+/* Reveal animation */
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.js .reveal{opacity:1!important;transform:none!important;transition:none}}
+
+/* Scroll progress */
+#progress{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold-bright));z-index:100;transition:width .1s linear}
+
+/* ============== NAV ============== */
+header.nav{
+  position:fixed;top:0;left:0;width:100%;z-index:60;
+  transition:background .5s var(--ease),box-shadow .5s var(--ease),border-color .5s var(--ease);
+  border-bottom:1px solid transparent;
+}
+header.nav.scrolled{
+  background:rgba(246,242,232,0.82);backdrop-filter:saturate(140%) blur(14px);
+  -webkit-backdrop-filter:saturate(140%) blur(14px);border-bottom:1px solid var(--line);
+}
+.nav-inner{max-width:1280px;margin:0 auto;padding:0 clamp(1.4rem,5vw,3.5rem);
+  height:70px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.brand{font-family:var(--serif-d);font-weight:600;font-size:1.32rem;letter-spacing:.01em;color:var(--ink);
+  display:flex;align-items:baseline;gap:.5rem;white-space:nowrap}
+.brand .dot{width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block;transform:translateY(-3px)}
+.nav-links{display:flex;align-items:center;gap:2.1rem}
+.nav-links a{font-family:var(--sans);font-weight:500;font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-soft);position:relative;padding:.3rem 0;transition:color .35s}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:1px;background:var(--gold);transition:width .4s var(--ease)}
+.nav-links a:hover{color:var(--ink)}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-links a.active{color:var(--ink)}
+.nav-right{display:flex;align-items:center;gap:1.2rem}
+.lang-btn{font-family:var(--sans);font-weight:600;font-size:.74rem;letter-spacing:.1em;color:var(--ink);
+  background:transparent;border:1px solid var(--line-2);border-radius:999px;padding:.45rem .85rem;cursor:pointer;
+  transition:border-color .35s,background .35s,color .35s}
+.lang-btn:hover{border-color:var(--gold);color:var(--gold)}
+.menu-btn{display:none;background:none;border:0;cursor:pointer;width:30px;height:22px;position:relative}
+.menu-btn span{position:absolute;left:0;width:100%;height:1.6px;background:var(--ink);transition:.4s var(--ease)}
+.menu-btn span:nth-child(1){top:2px}.menu-btn span:nth-child(2){top:10px}.menu-btn span:nth-child(3){top:18px}
+body.menu-open .menu-btn span:nth-child(1){top:10px;transform:rotate(45deg)}
+body.menu-open .menu-btn span:nth-child(2){opacity:0}
+body.menu-open .menu-btn span:nth-child(3){top:10px;transform:rotate(-45deg)}
+
+/* mobile overlay menu */
+.mobile-nav{position:fixed;inset:0;z-index:55;background:var(--paper);transform:translateY(-100%);
+  transition:transform .6s var(--ease);display:flex;flex-direction:column;justify-content:center;
+  padding:0 2rem;gap:.4rem;visibility:hidden}
+body.menu-open .mobile-nav{transform:none;visibility:visible}
+.mobile-nav a{font-family:var(--serif-d);font-weight:600;font-size:2rem;color:var(--ink);padding:.5rem 0;
+  border-bottom:1px solid var(--line);display:flex;align-items:baseline;gap:1rem}
+.mobile-nav a .num{font-family:var(--sans);font-size:.7rem;letter-spacing:.2em;color:var(--gold)}
+
+/* ============== HERO ============== */
+.hero{min-height:100svh;display:flex;align-items:center;position:relative;overflow:hidden;padding:clamp(104px,14vh,150px) 0 clamp(72px,10vh,120px)}
+@media (max-height:760px){.hero{align-items:flex-start}}
+.hero .hero-emblem{position:absolute;top:50%;right:clamp(-150px,-5vw,-30px);transform:translateY(-50%);
+  width:min(80vw,600px);height:min(80vw,600px);z-index:0;pointer-events:none;display:grid;place-items:center;user-select:none}
+.hero .hero-emblem .ring{position:absolute;inset:0;border:1px solid var(--gold);border-radius:50%;opacity:.22}
+.hero .hero-emblem .ring2{inset:12%;opacity:.15}
+.hero .hero-emblem .glyph{font-family:var(--serif-d);font-weight:500;font-size:min(30vw,250px);line-height:1;color:var(--navy);opacity:.07}
+.hero-inner{position:relative;z-index:2;width:100%}
+.hero .place{font-family:var(--sans);font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);
+  display:flex;align-items:center;gap:.7rem;margin-bottom:1.7rem}
+.hero .place::before{content:"";width:34px;height:1px;background:var(--gold)}
+.hero h1{font-family:var(--serif-d);font-weight:600;letter-spacing:-.012em;line-height:.99;
+  font-size:clamp(2.6rem,6.4vw,5.4rem);color:var(--ink)}
+.namesub{font-family:var(--serif-d);font-weight:500;font-size:clamp(1.05rem,2.3vw,1.6rem);letter-spacing:.14em;color:var(--navy);opacity:.92;margin-top:.85rem}
+html[data-lang="zh"] .namesub{letter-spacing:.02em;font-style:italic}
+.hero .role{font-family:var(--serif-d);font-style:italic;font-weight:500;color:var(--navy-2);
+  font-size:clamp(1.1rem,2.1vw,1.5rem);margin-top:1.35rem;line-height:1.4;max-width:34ch}
+.hero .lede{margin-top:1.5rem;color:var(--ink-soft);font-size:1.08rem;max-width:54ch;line-height:1.74}
+.hero .meta{margin-top:1.9rem;display:flex;flex-wrap:wrap;align-items:center;gap:.6rem 0;font-family:var(--sans);font-size:.78rem;
+  letter-spacing:.04em;color:var(--ink-faint)}
+.hero .meta .mi{display:inline-flex;align-items:center}
+.hero .meta .mi:not(:first-child)::before{content:"";width:4px;height:4px;border-radius:50%;background:var(--gold);margin:0 1.4rem}
+.hero-cta{margin-top:2.1rem;display:flex;gap:1.1rem;flex-wrap:wrap}
+.btn{font-family:var(--sans);font-weight:500;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;
+  padding:.95rem 1.7rem;border-radius:999px;display:inline-flex;align-items:center;gap:.6rem;cursor:pointer;
+  transition:.4s var(--ease);border:1px solid var(--ink)}
+.btn-solid{background:var(--ink);color:var(--paper-2);border-color:var(--ink)}
+.btn-solid:hover{background:var(--navy);border-color:var(--navy);transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line-2)}
+.btn-ghost:hover{border-color:var(--gold);color:var(--gold);transform:translateY(-2px)}
+.btn svg{width:15px;height:15px}
+.scroll-cue{position:absolute;bottom:2.2rem;left:50%;transform:translateX(-50%);z-index:2;
+  font-family:var(--sans);font-size:.64rem;letter-spacing:.26em;text-transform:uppercase;color:var(--ink-faint);
+  display:flex;flex-direction:column;align-items:center;gap:.7rem}
+.scroll-cue .ln{width:1px;height:42px;background:linear-gradient(var(--gold),transparent);position:relative;overflow:hidden}
+.scroll-cue .ln::after{content:"";position:absolute;top:-50%;left:0;width:100%;height:50%;background:var(--gold);animation:drop 2.2s var(--ease) infinite}
+@keyframes drop{0%{top:-50%}60%,100%{top:100%}}
+
+/* ============== STATS ============== */
+.stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--paper-2)}
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.stat{padding:clamp(2.2rem,4.5vw,3.4rem) clamp(1.2rem,2.5vw,2rem);text-align:center;position:relative}
+.stat+.stat::before{content:"";position:absolute;left:0;top:22%;height:56%;width:1px;background:var(--line)}
+.stat .num{font-family:var(--serif-d);font-weight:600;font-size:clamp(2.4rem,5vw,3.5rem);line-height:1;color:var(--navy);letter-spacing:-.01em}
+.stat .lbl{margin-top:.85rem;font-family:var(--sans);font-size:.72rem;letter-spacing:.08em;color:var(--ink-faint);line-height:1.5}
+
+/* ============== ABOUT ============== */
+.about-grid{display:grid;grid-template-columns:0.82fr 1.18fr;gap:clamp(2.4rem,6vw,5.5rem);align-items:start}
+.portrait-wrap{position:relative;z-index:2}
+.portrait{position:relative;aspect-ratio:4/5;border-radius:999px 999px 12px 12px;overflow:hidden;box-shadow:var(--shadow);background:var(--paper-3)}
+.portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 20%}
+.portrait-wrap::before{content:"";position:absolute;inset:0;transform:translate(18px,18px);
+  border:1px solid var(--gold);border-radius:999px 999px 12px 12px;z-index:1;opacity:.55}
+.portrait-cap{margin-top:1.5rem;font-family:var(--sans);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--ink-faint);display:flex;align-items:center;gap:.6rem}
+.portrait-cap::before{content:"";width:22px;height:1px;background:var(--gold)}
+.about-body h2{font-family:var(--serif-d);font-weight:600;font-size:clamp(1.9rem,4vw,2.9rem);line-height:1.05;margin:1rem 0 1.4rem}
+.about-body p{color:var(--ink-soft);font-size:1.08rem;margin-bottom:1.15rem;max-width:62ch}
+.about-body p .lead-cap::first-letter{}
+.facts{margin-top:2.2rem;display:grid;grid-template-columns:1fr 1fr;gap:1.5rem 2rem;border-top:1px solid var(--line);padding-top:2rem}
+.fact .k{font-family:var(--sans);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.45rem}
+.fact .v{font-size:1rem;color:var(--ink);line-height:1.5}
+
+/* ============== CREDENTIALS ============== */
+.cred-cols{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,5vw,4.5rem)}
+.cred-col h3,.honors h3{font-family:var(--sans);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+  padding-bottom:1rem;margin-bottom:1.6rem;border-bottom:1px solid var(--line)}
+.edu-item{margin-bottom:2rem}
+.edu-item:last-child{margin-bottom:0}
+.edu-item .inst{font-family:var(--serif-d);font-weight:600;font-size:1.5rem;color:var(--ink);line-height:1.15}
+.edu-item .deg{font-style:italic;color:var(--navy-2);margin-top:.35rem;font-size:1.05rem}
+.edu-item .when{font-family:var(--sans);font-size:.74rem;letter-spacing:.06em;color:var(--ink-faint);margin-top:.5rem}
+.edu-item .note{color:var(--ink-soft);margin-top:.7rem;font-size:.98rem}
+.qual-list{list-style:none;display:flex;flex-direction:column;gap:1.35rem}
+.qual-list li{display:flex;gap:1rem;align-items:flex-start}
+.qual-list li .mk{flex:none;width:9px;height:9px;border:1px solid var(--gold);transform:rotate(45deg);margin-top:.55rem}
+.qual-list li .t{font-weight:500;color:var(--ink);font-size:1.08rem}
+.qual-list li .s{color:var(--ink-soft);font-size:.96rem;display:block;margin-top:.15rem}
+.honors{margin-top:clamp(2.6rem,6vw,4rem);border-top:1px solid var(--line);padding-top:clamp(2.4rem,5vw,3.2rem)}
+.honors-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem 3rem}
+.honor{display:flex;gap:1rem;align-items:baseline;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.honor .yr{font-family:var(--sans);font-size:.7rem;letter-spacing:.08em;color:var(--gold);flex:none;width:74px}
+.honor .nm{color:var(--ink);font-size:1.02rem;line-height:1.4}
+
+/* ============== EXPERIENCE ============== */
+.timeline{position:relative;margin-top:1rem}
+.timeline::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:1px;background:var(--line-2)}
+.exp{position:relative;padding:0 0 clamp(2.6rem,5vw,3.6rem) clamp(2.6rem,5vw,3.4rem)}
+.exp:last-child{padding-bottom:0}
+.exp::before{content:"";position:absolute;left:2px;top:.45rem;width:11px;height:11px;border-radius:50%;
+  background:var(--paper);border:1.5px solid var(--gold);transition:background .4s,transform .4s,box-shadow .4s;z-index:2}
+.exp:hover::before{background:var(--gold);transform:scale(1.18);box-shadow:0 0 0 5px rgba(156,124,70,.12)}
+.exp .top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:.4rem 1.4rem}
+.exp .firm{font-family:var(--serif-d);font-weight:600;font-size:1.5rem;color:var(--ink);line-height:1.1}
+.exp .dates{font-family:var(--sans);font-size:.73rem;letter-spacing:.07em;color:var(--ink-faint);white-space:nowrap}
+.exp .meta2{font-style:italic;color:var(--navy-2);margin-top:.4rem;font-size:1rem}
+.exp .desc{color:var(--ink-soft);margin-top:.8rem;font-size:1rem;max-width:78ch;line-height:1.68}
+
+/* ============== ADVOCACY ============== */
+#advocacy{background:var(--navy);color:#E8E3D6;overflow:hidden;border-radius:clamp(30px,5vw,72px) clamp(30px,5vw,72px) 0 0}
+#advocacy .eyebrow{color:var(--gold-bright)}
+#advocacy .eyebrow::before{background:var(--gold-bright)}
+#advocacy .section-head h2{color:#F4F0E6}
+#advocacy .section-head p{color:#B9C0CC}
+.adv-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(2rem,5vw,4rem);align-items:center}
+.adv-figure{position:relative;border-radius:12px;overflow:hidden;box-shadow:0 30px 70px -30px rgba(0,0,0,.6)}
+.adv-figure img{width:100%;height:100%;object-fit:cover;filter:grayscale(.45) contrast(1.02) brightness(.96);
+  transition:filter .8s var(--ease),transform 1.2s var(--ease)}
+.adv-figure:hover img{filter:none;transform:scale(1.03)}
+.adv-main{aspect-ratio:4/5;border-radius:999px 999px 12px 12px}
+.adv-cards{display:flex;flex-direction:column;gap:1.3rem}
+.adv-card{border:1px solid rgba(255,255,255,.13);border-radius:16px;padding:1.6rem 1.7rem;
+  background:rgba(255,255,255,.03);transition:border-color .4s,background .4s}
+.adv-card:hover{border-color:var(--gold-bright);background:rgba(255,255,255,.05)}
+.adv-card .h{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.adv-card h4{font-family:var(--serif-d);font-weight:600;font-size:1.4rem;color:#F4F0E6;line-height:1.12}
+.adv-card .yr{font-family:var(--sans);font-size:.68rem;letter-spacing:.1em;color:var(--gold-bright);white-space:nowrap}
+.adv-card .r{font-style:italic;color:#C7CEDA;font-size:.95rem;margin-top:.3rem}
+.adv-card p{color:#AEB6C2;font-size:.97rem;margin-top:.7rem;line-height:1.6}
+.adv-strip{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1rem,2.5vw,1.6rem);margin-top:clamp(2rem,5vw,3rem)}
+.adv-strip .adv-figure{aspect-ratio:16/10}
+.adv-cap{margin-top:.85rem;font-family:var(--sans);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:#9AA3B1}
+
+/* ============== SKILLS ============== */
+.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.6rem,4vw,3.4rem)}
+.skill-col h3{font-family:var(--sans);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);
+  padding-bottom:1rem;margin-bottom:1.4rem;border-bottom:1px solid var(--line)}
+.skill-col ul{list-style:none;display:flex;flex-direction:column;gap:.75rem}
+.skill-col li{color:var(--ink-soft);font-size:1.02rem;display:flex;gap:.7rem;align-items:baseline}
+.skill-col li::before{content:"";flex:none;width:5px;height:5px;border-radius:50%;background:var(--gold);transform:translateY(-3px)}
+
+/* ============== CONTACT ============== */
+#contact{background:var(--paper-2);border-top:1px solid var(--line)}
+.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2.4rem,6vw,5rem);align-items:start}
+.contact-lead h2{font-family:var(--serif-d);font-weight:600;font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.02;color:var(--ink)}
+.contact-lead p{color:var(--ink-soft);font-size:1.1rem;margin-top:1.4rem;max-width:46ch}
+.contact-lead .hero-cta{margin-top:2.4rem}
+.contact-list{display:flex;flex-direction:column}
+.contact-list a,.contact-list .row{display:flex;align-items:center;justify-content:space-between;gap:1rem;
+  padding:1.25rem 0;border-bottom:1px solid var(--line);transition:.4s var(--ease)}
+.contact-list a:hover{padding-left:.5rem}
+.contact-list .k{font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.contact-list .v{font-size:1.05rem;color:var(--ink);text-align:right}
+.contact-list a:hover .v{color:var(--navy)}
+
+footer{background:var(--ink);color:#C4C9D0;border-radius:clamp(30px,5vw,72px) clamp(30px,5vw,72px) 0 0;overflow:hidden}
+.foot-inner{max-width:var(--maxw);margin:0 auto;padding:clamp(2.4rem,5vw,3.4rem) clamp(1.4rem,5vw,3.5rem);
+  display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap}
+.foot-inner .fb{font-family:var(--serif-d);font-weight:600;font-size:1.3rem;color:var(--paper-2)}
+.foot-inner .fc{font-family:var(--sans);font-size:.72rem;letter-spacing:.06em;color:#7E8794;line-height:1.7}
+.foot-top{font-family:var(--sans);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#9AA3B1;
+  display:inline-flex;align-items:center;gap:.6rem;cursor:pointer;transition:color .4s}
+.foot-top:hover{color:var(--gold-bright)}
+
+/* ============== RESPONSIVE ============== */
+@media (max-width:960px){
+  .nav-links{display:none}
+  .menu-btn{display:block}
+  .about-grid{grid-template-columns:1fr;gap:2.6rem}
+  .portrait-wrap{max-width:420px}
+  .cred-cols{grid-template-columns:1fr;gap:2.6rem}
+  .honors-grid{grid-template-columns:1fr}
+  .adv-grid{grid-template-columns:1fr;gap:2rem}
+  .adv-main{aspect-ratio:5/4;max-height:560px}
+  .skills-grid{grid-template-columns:1fr;gap:2rem}
+  .contact-grid{grid-template-columns:1fr;gap:2.4rem}
+}
+@media (max-width:620px){
+  .stats-grid{grid-template-columns:1fr 1fr}
+  .stat:nth-child(3)::before,.stat:nth-child(1)::before{display:none}
+  .stat:nth-child(3),.stat:nth-child(4){border-top:1px solid var(--line)}
+  .facts{grid-template-columns:1fr}
+  .adv-strip{grid-template-columns:1fr}
+  .hero .meta{gap:.5rem 1.05rem}
+  .hero .meta .mi:not(:first-child)::before{display:none}
+  .exp .top{flex-direction:column;gap:.2rem}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js');</script>
+<div id="progress"></div>
+
+<!-- ============== NAV ============== -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand">Eric Lin<span class="dot"></span></a>
+    <nav class="nav-links">
+      <a href="#about"><span class="lang-en">About</span><span class="lang-zh">简介</span></a>
+      <a href="#credentials"><span class="lang-en">Credentials</span><span class="lang-zh">资历</span></a>
+      <a href="#experience"><span class="lang-en">Experience</span><span class="lang-zh">经历</span></a>
+      <a href="#advocacy"><span class="lang-en">Advocacy</span><span class="lang-zh">模拟法庭</span></a>
+      <a href="#contact"><span class="lang-en">Contact</span><span class="lang-zh">联系</span></a>
+    </nav>
+    <div class="nav-right">
+      <button class="lang-btn" id="langToggle" aria-label="Switch language">中文</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#about"><span class="num">01</span><span class="lang-en">About</span><span class="lang-zh">简介</span></a>
+  <a href="#credentials"><span class="num">02</span><span class="lang-en">Credentials</span><span class="lang-zh">资历</span></a>
+  <a href="#experience"><span class="num">03</span><span class="lang-en">Experience</span><span class="lang-zh">经历</span></a>
+  <a href="#advocacy"><span class="num">04</span><span class="lang-en">Advocacy</span><span class="lang-zh">模拟法庭</span></a>
+  <a href="#contact"><span class="num">05</span><span class="lang-en">Contact</span><span class="lang-zh">联系</span></a>
+</div>
+
+<main id="top">
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <div class="hero-emblem" aria-hidden="true"><span class="ring"></span><span class="ring ring2"></span><span class="glyph">§</span></div>
+  <div class="wrap hero-inner">
+    <div class="place reveal in"><span class="lang-en">Hong Kong · Cross-border Practice</span><span class="lang-zh">中国香港 · 跨境法律实务</span></div>
+    <h1 class="reveal in">
+      <span class="lang-en">Zhiyuan<br>(Eric) Lin</span>
+      <span class="lang-zh">林志远</span>
+    </h1>
+    <div class="namesub reveal in"><span class="lang-en">林志远</span><span class="lang-zh">Zhiyuan (Eric) Lin</span></div>
+    <p class="role reveal in">
+      <span class="lang-en">Future Trainee Solicitor at Withers · Juris Doctor candidate · Qualified PRC Lawyer.</span>
+      <span class="lang-zh">Withers 未来执业律师 · 香港中文大学法律博士（JD）候选人 · 中国执业律师。</span>
+    </p>
+    <p class="lede reveal in">
+      <span class="lang-en">Building a career at the intersection of Chinese and international law — across capital markets, cross-border transactions, and dispute resolution.</span>
+      <span class="lang-zh">深耕中国法与国际法的交汇——横跨资本市场、跨境交易与争议解决。</span>
+    </p>
+    <div class="meta reveal in">
+      <span class="mi"><span class="lang-en">The Chinese University of Hong Kong</span><span class="lang-zh">香港中文大学</span></span>
+      <span class="mi"><span class="lang-en">JD · Class of 2026</span><span class="lang-zh">法律博士 · 2026 届</span></span>
+      <span class="mi"><span class="lang-en">PRC Bar Qualified</span><span class="lang-zh">中国法律职业资格</span></span>
+    </div>
+    <div class="hero-cta reveal in">
+      <a href="#experience" class="btn btn-solid"><span class="lang-en">View Experience</span><span class="lang-zh">查看经历</span></a>
+      <a href="#contact" class="btn btn-ghost"><span class="lang-en">Get in touch</span><span class="lang-zh">联系我</span></a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll"><span class="lang-en">Scroll</span><span class="lang-zh">向下滚动</span><span class="ln"></span></a>
+</section>
+
+<!-- ============== STATS ============== -->
+<section class="stats">
+  <div class="stats-grid">
+    <div class="stat reveal"><div class="num">Top 5%</div><div class="lbl"><span class="lang-en">JD cohort · CUHK</span><span class="lang-zh">香港中大 JD 年级排名</span></div></div>
+    <div class="stat reveal"><div class="num">Top 8</div><div class="lbl"><span class="lang-en">Global Best Teams · FDI Moot</span><span class="lang-zh">FDI Moot 全球最佳队伍</span></div></div>
+    <div class="stat reveal"><div class="num">5</div><div class="lbl"><span class="lang-en">Leading US · UK · PRC firms</span><span class="lang-zh">美 · 英 · 中顶尖律所</span></div></div>
+    <div class="stat reveal"><div class="num">500K+</div><div class="lbl"><span class="lang-en">Viewers · flagship debate event</span><span class="lang-zh">旗舰辩论赛事观看人次</span></div></div>
+  </div>
+</section>
+
+<!-- ============== ABOUT ============== -->
+<section id="about" class="pad">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="portrait-wrap reveal">
+        <div class="portrait"><img src="assets/portrait-formal.jpg" alt="Portrait of Zhiyuan (Eric) Lin" loading="lazy"></div>
+        <div class="portrait-cap"><span class="lang-en">Zhiyuan (Eric) Lin · Hong Kong</span><span class="lang-zh">林志远（Eric）· 中国香港</span></div>
+      </div>
+      <div class="about-body reveal">
+        <div class="eyebrow"><span class="lang-en">About</span><span class="lang-zh">简介</span></div>
+        <h2><span class="lang-en">A lawyer between two legal worlds.</span><span class="lang-zh">游走于两个法律世界之间。</span></h2>
+        <p>
+          <span class="lang-en">Eric is a future Trainee Solicitor at Withers and a Juris Doctor candidate at The Chinese University of Hong Kong. A qualified PRC lawyer, he is building a career at the intersection of Chinese and international law — earning distinctions such as the Linklaters Making Links Scholarship and the Freshfields Community Investment Award along the way.</span>
+          <span class="lang-zh">林志远（Eric）是 Withers 的未来执业律师，香港中文大学法律博士（JD）候选人，并已取得中国法律职业资格。他立志在中国法与国际法的交汇处建立自己的事业，曾获 Linklaters Making Links 奖学金、Freshfields 社区投资奖等荣誉。</span>
+        </p>
+        <p>
+          <span class="lang-en">He has gained hands-on experience in capital markets, cross-border transactions, and dispute resolution at leading US, UK, and Chinese law firms. He is also an accomplished international mooter and debater — competing against Oxford, Duke, and LSE, and transforming an under-resourced student club into a nationally ranked team behind an event that drew over 500,000 viewers.</span>
+          <span class="lang-zh">他在美、英、中顶尖律所积累了资本市场、跨境交易与争议解决的一线经验；同时是出色的国际模拟法庭辩手，曾与牛津、杜克、伦敦政经同台竞技，并以创业精神将一支资源有限的学生社团打造为全国排名的队伍，策划的赛事吸引超过 50 万人次观看。</span>
+        </p>
+        <div class="facts">
+          <div class="fact"><div class="k"><span class="lang-en">Based in</span><span class="lang-zh">所在地</span></div><div class="v"><span class="lang-en">Hong Kong SAR</span><span class="lang-zh">中国香港</span></div></div>
+          <div class="fact"><div class="k"><span class="lang-en">Focus</span><span class="lang-zh">专注领域</span></div><div class="v"><span class="lang-en">Capital Markets · Cross-border M&amp;A · Dispute Resolution</span><span class="lang-zh">资本市场 · 跨境并购 · 争议解决</span></div></div>
+          <div class="fact"><div class="k"><span class="lang-en">Languages</span><span class="lang-zh">语言</span></div><div class="v"><span class="lang-en">English (fluent) · Mandarin (native) · Cantonese (conversational)</span><span class="lang-zh">英语（流利）· 普通话（母语）· 粤语（日常）</span></div></div>
+          <div class="fact"><div class="k"><span class="lang-en">Qualification</span><span class="lang-zh">资格</span></div><div class="v"><span class="lang-en">PRC Bar · PCLL (CUHK, 2026–27)</span><span class="lang-zh">中国律师资格 · PCLL（香港中大，2026–27）</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CREDENTIALS ============== -->
+<section id="credentials" class="pad" style="background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="lang-en">Credentials</span><span class="lang-zh">资历</span></div>
+      <h2><span class="lang-en">Education &amp; Qualifications</span><span class="lang-zh">教育背景与执业资格</span></h2>
+    </div>
+    <div class="cred-cols">
+      <div class="cred-col reveal">
+        <h3><span class="lang-en">Education</span><span class="lang-zh">教育</span></h3>
+        <div class="edu-item">
+          <div class="inst"><span class="lang-en">The Chinese University of Hong Kong</span><span class="lang-zh">香港中文大学</span></div>
+          <div class="deg"><span class="lang-en">Juris Doctor (JD)</span><span class="lang-zh">法律博士（Juris Doctor）</span></div>
+          <div class="when"><span class="lang-en">2024 – 2026 (Expected) · GPA 3.647/4.0 · Top 5% of cohort</span><span class="lang-zh">2024 – 2026（预计）· GPA 3.647/4.0 · 年级前 5%</span></div>
+        </div>
+        <div class="edu-item">
+          <div class="inst"><span class="lang-en">Jiangxi University of Finance &amp; Economics</span><span class="lang-zh">江西财经大学</span></div>
+          <div class="deg"><span class="lang-en">LL.B. — Law &amp; Forensic Accounting</span><span class="lang-zh">法学学士 — 法学（法务会计）</span></div>
+          <div class="when"><span class="lang-en">2020 – 2024 · GPA 4.13/5.0 (91.28%) · Top 2.5% · Excellent Graduate</span><span class="lang-zh">2020 – 2024 · GPA 4.13/5.0（91.28%）· 年级前 2.5% · 优秀毕业生</span></div>
+        </div>
+      </div>
+      <div class="cred-col reveal">
+        <h3><span class="lang-en">Qualifications &amp; Bar</span><span class="lang-zh">执业资格</span></h3>
+        <ul class="qual-list">
+          <li><span class="mk"></span><div><span class="t"><span class="lang-en">Qualified PRC Lawyer</span><span class="lang-zh">中国执业律师</span></span><span class="s"><span class="lang-en">PRC Legal Professional Qualification (PRC Bar)</span><span class="lang-zh">已通过国家统一法律职业资格考试</span></span></div></li>
+          <li><span class="mk"></span><div><span class="t"><span class="lang-en">Future Trainee Solicitor — Withers</span><span class="lang-zh">Withers 未来执业律师（Trainee Solicitor）</span></span><span class="s"><span class="lang-en">Training contract secured · Hong Kong</span><span class="lang-zh">已获 Training Contract · 中国香港</span></span></div></li>
+          <li><span class="mk"></span><div><span class="t"><span class="lang-en">PCLL — CUHK</span><span class="lang-zh">PCLL — 香港中文大学</span></span><span class="s"><span class="lang-en">Postgraduate Certificate in Laws · Admitted 2026–27 (UGC-funded)</span><span class="lang-zh">法律深造证书 · 已获录取 2026–27（UGC 资助学额）</span></span></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="honors reveal">
+      <h3><span class="lang-en">Honours &amp; Awards</span><span class="lang-zh">荣誉与奖项</span></h3>
+      <div class="honors-grid">
+        <div class="honor"><span class="yr">2025–26</span><span class="nm"><span class="lang-en">Linklaters Making Links Scholarship</span><span class="lang-zh">Linklaters Making Links 奖学金</span></span></div>
+        <div class="honor"><span class="yr">2024–25</span><span class="nm"><span class="lang-en">The Freshfields Community Investment Award</span><span class="lang-zh">Freshfields 社区投资奖</span></span></div>
+        <div class="honor"><span class="yr">2025</span><span class="nm"><span class="lang-en">FDI Moot — Top 8 Global Best Teams &amp; National First Runner-up</span><span class="lang-zh">FDI Moot — 全球八强 &amp; 全国亚军</span></span></div>
+        <div class="honor"><span class="yr">2026</span><span class="nm"><span class="lang-en">Vis Moot — Honourable Mention, Fali Nariman Award (Best Memorandum, Respondent)</span><span class="lang-zh">Vis Moot — Fali Nariman 最佳被申请人书状荣誉提名</span></span></div>
+        <div class="honor"><span class="yr">2025–26</span><span class="nm"><span class="lang-en">SCIA Scholarship · JD Bronze Scholarship for Academic Merit</span><span class="lang-zh">SCIA 奖学金 · JD 学业铜奖学金</span></span></div>
+        <div class="honor"><span class="yr">2024</span><span class="nm"><span class="lang-en">1st National Prize — “LinkedIn Cup” Debate · Distinguished Oralist, Lee &amp; Li Moot</span><span class="lang-zh">“领英杯”辩论赛全国一等奖 · 理律杯杰出辩手</span></span></div>
+        <div class="honor"><span class="yr">2020–24</span><span class="nm"><span class="lang-en">Multiple Top-1% Undergraduate Scholarships (JUFE)</span><span class="lang-zh">多项本科前 1% 奖学金（江西财大）</span></span></div>
+        <div class="honor"><span class="yr">2024</span><span class="nm"><span class="lang-en">Outstanding Undergraduate Overseas Study Scholarship (Top 1%)</span><span class="lang-zh">优秀本科生海外研学奖学金（前 1%）</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== EXPERIENCE ============== -->
+<section id="experience" class="pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="lang-en">Experience</span><span class="lang-zh">职业经历</span></div>
+      <h2><span class="lang-en">Six placements across leading US, UK &amp; Chinese firms</span><span class="lang-zh">横跨美、英、中顶尖律所的实务历练</span></h2>
+      <p><span class="lang-en">From capital markets and cross-border M&amp;A to litigation and arbitration — work spanning Hong Kong, the Mainland, and beyond.</span><span class="lang-zh">从资本市场、跨境并购到诉讼与仲裁——足迹遍及香港、内地及海外。</span></p>
+    </div>
+    <div class="timeline">
+      <div class="exp reveal">
+        <div class="top"><div class="firm">Linklaters LLP</div><div class="dates">02 – 08 / 2025 · Hong Kong</div></div>
+        <div class="meta2"><span class="lang-en">Making Links Scholar &amp; EDM Working-Experience Student</span><span class="lang-zh">Making Links 学者 &amp; EDM 工作体验学生</span></div>
+        <div class="desc"><span class="lang-en">Selected for Linklaters' talent programme. Drafted FDDQ/MDDQ due-diligence questionnaires for an offshore bond issuance; engaged prior creditors and analysed refinancing restrictions in loan agreements.</span><span class="lang-zh">入选 Linklaters 精英人才计划。为离岸债券发行起草 FDDQ/MDDQ 尽调问卷；与既有债权人沟通，梳理贷款协议中限制再融资的条款。</span></div>
+      </div>
+      <div class="exp reveal">
+        <div class="top"><div class="firm">Withers LLP</div><div class="dates">06 – 07 / 2025 · Hong Kong</div></div>
+        <div class="meta2"><span class="lang-en">Summer Vacation Intern &amp; Future Trainee Solicitor · Litigation &amp; Arbitration; Private Client</span><span class="lang-zh">暑期实习生 &amp; 未来执业律师 · 诉讼与仲裁；私人客户</span></div>
+        <div class="desc"><span class="lang-en">Assessed asset risk for a trust structure; drafted a cross-border (HK–Singapore) shareholder-dispute memorandum on breaches of the SHA, fiduciary duties and unfair prejudice; built High Court defences opposing a summary-judgment application.</span><span class="lang-zh">为信托架构评估资产风险；起草跨境（香港–新加坡）股东争议备忘录，分析违反股东协议、董事信义义务及不公平损害；为高等法院案件构建抗辩，反对简易判决申请。</span></div>
+      </div>
+      <div class="exp reveal">
+        <div class="top"><div class="firm">Morgan, Lewis &amp; Bockius LLP</div><div class="dates">06 / 2025 · Hong Kong</div></div>
+        <div class="meta2"><span class="lang-en">Vacation Scheme Intern · IPO · General Corporate · Debt Capital Markets</span><span class="lang-zh">暑期实习生 · IPO · 公司业务 · 债务资本市场</span></div>
+        <div class="desc"><span class="lang-en">Drafted Risk Factors and Senior Management sections plus verification notes for an offshore debt issuance; authored a Mainland/Hong Kong tax &amp; profit-distribution advisory for foreign clients.</span><span class="lang-zh">为离岸债券发行起草「风险因素」「高级管理层」章节及核查备忘；为外国客户撰写涵盖内地与香港税务、退税与利润分配的合规解答。</span></div>
+      </div>
+      <div class="exp reveal">
+        <div class="top"><div class="firm"><span class="lang-en">Zhong Lun Law Firm</span><span class="lang-zh">中伦律师事务所</span></div><div class="dates">04 – 07 / 2024 · Hong Kong &amp; Shenzhen</div></div>
+        <div class="meta2"><span class="lang-en">Legal Intern · Foreign Direct Investment &amp; Debt Capital Markets</span><span class="lang-zh">法律实习生 · 外商直接投资 &amp; 债务资本市场</span></div>
+        <div class="desc"><span class="lang-en">Drafted US-litigation expert-report arguments; supported a German industrial group's investment into a PRC supplier (call-option &amp; best-price agreements); advised on Panda Bond issuance and PIPL compliance.</span><span class="lang-zh">为美国诉讼专家报告起草论点；协助德国工业集团对华供应商的跨境投资（看涨期权与最优价格协议）；就熊猫债发行与《个人信息保护法》合规提供建议。</span></div>
+      </div>
+      <div class="exp reveal">
+        <div class="top"><div class="firm"><span class="lang-en">Zhong Lun Law Firm</span><span class="lang-zh">中伦律师事务所</span></div><div class="dates">11 / 2023 – 02 / 2024 · Chengdu</div></div>
+        <div class="meta2"><span class="lang-en">Legal Intern · PE / VC / M&amp;A</span><span class="lang-zh">法律实习生 · 私募 / 风投 / 并购</span></div>
+        <div class="desc"><span class="lang-en">Analysed “acting in concert” and mandatory-offer triggers under Hong Kong law; assessed CSRC 2023 overseas-listing compliance; drafted SPA warranties mitigating diligence risks.</span><span class="lang-zh">分析香港法下「一致行动」与强制要约触发；评估证监会 2023 境外上市新规合规；起草股权购买协议中的陈述与保证以缓释尽调风险。</span></div>
+      </div>
+      <div class="exp reveal">
+        <div class="top"><div class="firm"><span class="lang-en">Global Law Office</span><span class="lang-zh">环球律师事务所</span></div><div class="dates">07 – 09 / 2023 · Beijing</div></div>
+        <div class="meta2"><span class="lang-en">Legal Intern · Capital Markets — Securitization &amp; Derivatives</span><span class="lang-zh">法律实习生 · 资本市场 — 证券化与衍生品</span></div>
+        <div class="desc"><span class="lang-en">Advised overseas investors on PRC public-M&amp;A regulation (Negative List, national-security review, antitrust); conducted ABS underlying-asset due diligence on a bank's credit portfolio.</span><span class="lang-zh">就中国上市公司并购监管（负面清单、国家安全审查、反垄断）向境外投资者提供建议；对某银行信贷资产组合进行 ABS 基础资产尽职调查。</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== ADVOCACY ============== -->
+<section id="advocacy" class="pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="lang-en">Advocacy &amp; Moot Court</span><span class="lang-zh">模拟法庭与辩论</span></div>
+      <h2><span class="lang-en">An advocate's instinct, tested on the world stage</span><span class="lang-zh">在世界舞台上磨砺的辩护本能</span></h2>
+      <p><span class="lang-en">International commercial arbitration and investment moots — written memoranda and oral advocacy against the world's leading law schools.</span><span class="lang-zh">国际商事仲裁与投资仲裁模拟法庭——书状写作与口头辩论，对阵全球顶尖法学院。</span></p>
+    </div>
+    <div class="adv-grid">
+      <div class="adv-figure adv-main reveal"><img src="assets/advocacy-podium.jpg" alt="Eric Lin presenting oral submissions at a moot court round" loading="lazy"></div>
+      <div class="adv-cards">
+        <div class="adv-card reveal">
+          <div class="h"><h4><span class="lang-en">Willem C. Vis Moot (33rd)</span><span class="lang-zh">第 33 届 Vis 国际商事仲裁模拟法庭</span></h4><span class="yr">2025–26</span></div>
+          <div class="r"><span class="lang-en">Team Member · Oralist Candidate</span><span class="lang-zh">队员 · 口辩候选人</span></div>
+          <p><span class="lang-en">Quarterfinalist for team orals at both Vis Vienna and Vis East. Honourable Mention, Fali Nariman Award for Best Written Memorandum for Respondent. Researched CISG Art. 8 interpretation and SIAC third-party-funding disclosure.</span><span class="lang-zh">维也纳与香港赛区团队口辩均入八强；获 Fali Nariman 最佳被申请人书状荣誉提名。研究《销售公约》第 8 条解释及 SIAC 规则下第三方资助披露义务。</span></p>
+        </div>
+        <div class="adv-card reveal">
+          <div class="h"><h4><span class="lang-en">FDI Moot (National &amp; Global)</span><span class="lang-zh">FDI 投资仲裁模拟法庭（全国与全球）</span></h4><span class="yr">2025</span></div>
+          <div class="r"><span class="lang-en">Team Leader &amp; Researcher</span><span class="lang-zh">队长 &amp; 研究员</span></div>
+          <p><span class="lang-en">Top 8 Global Best Teams; National First Runner-up. Led a team of eight end-to-end under the ICSID Rules and authored the core jurisdiction and merits arguments.</span><span class="lang-zh">全球最佳队伍八强，全国亚军。在 ICSID 规则下统筹八人团队全流程，并主笔管辖权与实体核心论点。</span></p>
+        </div>
+        <div class="adv-card reveal">
+          <div class="h"><h4><span class="lang-en">JUFE Debate Team</span><span class="lang-zh">江西财大辩论队</span></h4><span class="yr">2021–24</span></div>
+          <div class="r"><span class="lang-en">Deputy Captain &amp; Executive Consultant</span><span class="lang-zh">副队长 &amp; 执行顾问</span></div>
+          <p><span class="lang-en">Secured the team's first institutional funding and elevated it from unranked to 47th nationally — competing against Oxford, Duke and LSE.</span><span class="lang-zh">为队伍争取到首笔机构经费，将其从无排名提升至全国第 47 名——并与牛津、杜克、伦敦政经同台竞技。</span></p>
+        </div>
+      </div>
+    </div>
+    <div class="adv-strip">
+      <div class="reveal">
+        <div class="adv-figure"><img src="assets/moot-vienna.jpg" alt="Vis Moot team at Juridicum, University of Vienna" loading="lazy"></div>
+        <div class="adv-cap"><span class="lang-en">Vis Moot · Juridicum, University of Vienna</span><span class="lang-zh">Vis Moot · 维也纳大学法学院</span></div>
+      </div>
+      <div class="reveal">
+        <div class="adv-figure"><img src="assets/moot-team.jpg" alt="FDI Moot team at CUHK Graduate Law Centre" loading="lazy"></div>
+        <div class="adv-cap"><span class="lang-en">FDI Moot · CUHK Graduate Law Centre</span><span class="lang-zh">FDI Moot · 香港中大研究生法律中心</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== SKILLS ============== -->
+<section id="skills" class="pad" style="background:var(--paper-2);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow"><span class="lang-en">Capabilities</span><span class="lang-zh">能力与志趣</span></div>
+      <h2><span class="lang-en">Beyond the black-letter law</span><span class="lang-zh">法条之外</span></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-col reveal">
+        <h3><span class="lang-en">Practice Skills</span><span class="lang-zh">实务技能</span></h3>
+        <ul>
+          <li><span class="lang-en">Legal research &amp; writing</span><span class="lang-zh">法律研究与写作</span></li>
+          <li><span class="lang-en">Cross-border due diligence</span><span class="lang-zh">跨境尽职调查</span></li>
+          <li><span class="lang-en">Westlaw · LexisNexis</span><span class="lang-zh">Westlaw · LexisNexis 数据库</span></li>
+          <li><span class="lang-en">Transactional drafting</span><span class="lang-zh">交易文件起草</span></li>
+          <li><span class="lang-en">AIGC for legal workflows</span><span class="lang-zh">AIGC 辅助法律工作流</span></li>
+        </ul>
+      </div>
+      <div class="skill-col reveal">
+        <h3><span class="lang-en">Languages</span><span class="lang-zh">语言</span></h3>
+        <ul>
+          <li><span class="lang-en">English — fluent (working)</span><span class="lang-zh">英语 — 流利（工作语言）</span></li>
+          <li><span class="lang-en">Mandarin — native</span><span class="lang-zh">普通话 — 母语</span></li>
+          <li><span class="lang-en">Cantonese — conversational</span><span class="lang-zh">粤语 — 日常会话</span></li>
+        </ul>
+      </div>
+      <div class="skill-col reveal">
+        <h3><span class="lang-en">Interests</span><span class="lang-zh">兴趣</span></h3>
+        <ul>
+          <li><span class="lang-en">Debate &amp; public speaking</span><span class="lang-zh">辩论与演讲</span></li>
+          <li><span class="lang-en">Musicals &amp; singing</span><span class="lang-zh">音乐剧与声乐</span></li>
+          <li><span class="lang-en">Mountaineering</span><span class="lang-zh">登山</span></li>
+          <li><span class="lang-en">Strategy &amp; table games</span><span class="lang-zh">策略桌游</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CONTACT ============== -->
+<section id="contact" class="pad">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-lead reveal">
+        <div class="eyebrow"><span class="lang-en">Contact</span><span class="lang-zh">联系</span></div>
+        <h2 style="margin-top:1.1rem"><span class="lang-en">Let's start<br>a conversation.</span><span class="lang-zh">期待与你<br>开启对话。</span></h2>
+        <p><span class="lang-en">Open to training-contract, vacation-scheme, and cross-border legal opportunities. I usually reply within a day.</span><span class="lang-zh">欢迎就 Training Contract、暑期实习及跨境法律机会与我联系，通常一日内回复。</span></p>
+        <div class="hero-cta">
+          <a href="mailto:eric.lin@link.cuhk.edu.hk" class="btn btn-solid"><span class="lang-en">Email me</span><span class="lang-zh">发邮件</span></a>
+          <a href="assets/Eric-Lin-CV.pdf" target="_blank" rel="noopener" class="btn btn-ghost">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 17v2a2 2 0 002 2h12a2 2 0 002-2v-2"/></svg>
+            <span class="lang-en">Download CV</span><span class="lang-zh">下载简历</span></a>
+        </div>
+      </div>
+      <div class="contact-list reveal">
+        <a href="mailto:eric.lin@link.cuhk.edu.hk"><span class="k">Email</span><span class="v">eric.lin@link.cuhk.edu.hk</span></a>
+        <a href="tel:+85259570993"><span class="k"><span class="lang-en">Phone</span><span class="lang-zh">电话</span></span><span class="v">+852 5957 0993</span></a>
+        <a href="https://www.linkedin.com/in/zhiyuan-eric-lin/" target="_blank" rel="noopener"><span class="k">LinkedIn</span><span class="v">/in/zhiyuan-eric-lin</span></a>
+        <div class="row"><span class="k"><span class="lang-en">Location</span><span class="lang-zh">所在地</span></span><span class="v"><span class="lang-en">Hong Kong SAR</span><span class="lang-zh">中国香港</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="fb">Zhiyuan (Eric) Lin · 林志远</div>
+      <div class="fc"><span class="lang-en">Juris Doctor Candidate · Future Trainee Solicitor · Qualified PRC Lawyer</span><span class="lang-zh">法律博士候选人 · 未来执业律师 · 中国执业律师</span><br>© <span id="yr"></span> Zhiyuan Lin. <span class="lang-en">All rights reserved.</span><span class="lang-zh">保留所有权利。</span></div>
+    </div>
+    <div class="foot-top" id="footTop"><span class="lang-en">Back to top</span><span class="lang-zh">返回顶部</span> ↑</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+  var root=document.documentElement, body=document.body;
+
+  /* ---------- Language ---------- */
+  var btn=document.getElementById('langToggle');
+  function applyLang(l){
+    root.setAttribute('data-lang',l);
+    root.lang = (l==='zh'?'zh-Hans':'en');
+    btn.textContent = (l==='zh'?'EN':'中文');
+    try{localStorage.setItem('ericlin-lang',l);}catch(e){}
+  }
+  var saved='en';
+  try{saved=localStorage.getItem('ericlin-lang')||'en';}catch(e){}
+  applyLang(saved);
+  btn.addEventListener('click',function(){
+    applyLang(root.getAttribute('data-lang')==='zh'?'en':'zh');
+  });
+
+  /* ---------- Mobile menu ---------- */
+  var mb=document.getElementById('menuBtn');
+  mb.addEventListener('click',function(){body.classList.toggle('menu-open');});
+  document.querySelectorAll('#mobileNav a').forEach(function(a){
+    a.addEventListener('click',function(){body.classList.remove('menu-open');});
+  });
+
+  /* ---------- Nav scrolled + progress ---------- */
+  var nav=document.getElementById('nav'), prog=document.getElementById('progress');
+  function onScroll(){
+    var y=window.pageYOffset||document.documentElement.scrollTop;
+    nav.classList.toggle('scrolled', y>40);
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    prog.style.width=(h>0?(y/h*100):0)+'%';
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+
+  /* ---------- Reveal on view ---------- */
+  var reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  if('IntersectionObserver' in window && !reduce){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    },{threshold:0.12,rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.reveal').forEach(function(el,i){
+      // gentle stagger for grouped items
+      var sib=el.parentElement?Array.prototype.indexOf.call(el.parentElement.children,el):0;
+      el.style.transitionDelay=Math.min(sib,5)*70+'ms';
+      io.observe(el);
+    });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in');});
+  }
+
+  /* ---------- Active nav link by section ---------- */
+  var links=Array.prototype.slice.call(document.querySelectorAll('.nav-links a'));
+  var map={};
+  links.forEach(function(a){var id=a.getAttribute('href').slice(1); if(id) map[id]=a;});
+  var secIds=Object.keys(map);
+  if('IntersectionObserver' in window){
+    var so=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          links.forEach(function(a){a.classList.remove('active');});
+          var a=map[en.target.id]; if(a) a.classList.add('active');
+        }
+      });
+    },{threshold:0.5,rootMargin:'-30% 0px -55% 0px'});
+    secIds.forEach(function(id){var s=document.getElementById(id); if(s) so.observe(s);});
+  }
+
+  /* ---------- Smooth offset scroll for anchors ---------- */
+  function scrollToId(id){
+    var el=document.getElementById(id); if(!el) return;
+    var top=el.getBoundingClientRect().top+window.pageYOffset-58;
+    window.scrollTo({top:top,behavior:reduce?'auto':'smooth'});
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id=a.getAttribute('href').slice(1);
+      if(id && document.getElementById(id)){ e.preventDefault(); scrollToId(id); }
+      else if(a.getAttribute('href')==='#top'||id==='top'){ e.preventDefault(); window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});}
+    });
+  });
+  document.getElementById('footTop').addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});});
+
+  /* ---------- Subtle hero glyph parallax ---------- */
+  if(!reduce){
+    var glyph=document.querySelector('.hero .glyph'), ticking=false;
+    window.addEventListener('scroll',function(){
+      if(ticking) return; ticking=true;
+      window.requestAnimationFrame(function(){
+        var y=window.pageYOffset; if(glyph) glyph.style.transform='translateY('+(y*0.12)+'px)';
+        ticking=false;
+      });
+    },{passive:true});
+  }
+
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
